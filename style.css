@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://i.pinimg.com/474x/de/e2/7e/dee27e55ae9db273a2dfefc750c5ae44.jpg'); /* Replace with your image URL */
+    background-size: 100%;
+    background-position: center;
+    margin:0;
+    height: 600px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+     
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+h2, h3, h4 {
+    margin: 10px 0;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: calc(100% - 20px);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+#personalizedMessages {
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: left;
+}
